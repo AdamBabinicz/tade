@@ -35,7 +35,7 @@ export const cakes = [
     alt: "Cake",
     title: "Cwiczenia w wodzie",
     desc: "Raz w tygodniu przez 45 min. pod okiem instruktorki.",
-    price: "🏊‍♂️",
+    price: "🏊‍♂️🤿",
     button: "Select",
   },
   {
