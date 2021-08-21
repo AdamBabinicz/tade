@@ -68,22 +68,6 @@
   background-position: center;
   background-size: cover;
 }
-
-@media screen and (max-width: 935px) {
-  .favContainer p {
-    width: 100%;
-  }
-  .favContent {
-    flex-direction: column;
-  }
-  .textContent {
-    margin: 2rem 0;
-  }
-  .favBtn {
-    margin-top: 4rem;
-  }
-}
-
 .favBtn {
   font-size: 1rem;
   padding: 1rem 4rem;
@@ -97,4 +81,18 @@
 .favBtn:hover {
   background: #757575;
   cursor: pointer;
+}
+@media screen and (max-width: 935px) {
+  .favContainer p {
+    width: 100%;
+  }
+  .favContent {
+    flex-direction: column;
+  }
+  .textContent {
+    margin: 2rem 0;
+  }
+  .favBtn {
+    margin-top: 0.5rem;
+  }
 }
