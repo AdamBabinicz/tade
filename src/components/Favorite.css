@@ -89,10 +89,12 @@
   .favContent {
     flex-direction: column;
   }
+  .textContent {
+    margin-top: 1rem;
+  }
   .textContent p {
-    /* margin: 2rem 0.5rem auto; */
     width: 100%;
-    padding: 0 1rem;
+    padding: 5px;
     /* height: auto; */
     font-size: 15px;
   }
