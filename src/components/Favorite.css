@@ -94,6 +94,7 @@
   }
   .textContent {
     margin-top: 2rem;
+    background: transparent;
   }
   .favBtn {
     margin-top: 0.5rem;
