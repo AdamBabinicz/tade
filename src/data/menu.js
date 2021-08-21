@@ -43,7 +43,7 @@ export const cakes = [
     alt: "Cake",
     title: "Nurkowanie z fajką",
     desc: "Oglądanie podwodnego świata zwierząt, roślin i podłoża.",
-    price: "🥽",
+    price: "🤿",
     button: "Select",
   },
   {
