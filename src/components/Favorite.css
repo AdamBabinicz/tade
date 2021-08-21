@@ -53,7 +53,7 @@
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  width: 100%;
+  /* width: 100%; */
   margin-left: 2rem;
 }
 .favImage {
@@ -89,10 +89,12 @@
   .favContent {
     flex-direction: column;
   }
-  .textContent {
-    margin: 2rem auto 0.5rem;
+  .textContent p {
+    /* margin: 2rem 0.5rem auto; */
+    width: 100%;
     padding: 0 1rem;
-    height: auto;
+    /* height: auto; */
+    font-size: 15px;
   }
   .favBtn {
     margin-top: 0.5rem;
