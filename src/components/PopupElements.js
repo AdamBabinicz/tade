@@ -33,7 +33,7 @@ export const PopupInner = styled.div`
 
   @media screen and (max-width: 480px) {
     font-size: 1.4rem;
-    max-width: 70%;
+    max-width: 100%;
 
     img {
       max-width: 80%;

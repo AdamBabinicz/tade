@@ -38,10 +38,10 @@ const Hero = () => {
             Zobacz
           </div>
           <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-            <h3>{state.title}</h3>
+            <h3 style={{ fontSize: "15px" }}>{state.title}</h3>
             <br />
             <img src={state.img} alt="..." /> <br />
-            <p>{state.p0}</p>
+            <p style={{ fontSize: "14px" }}>{state.p0}</p>
             <em style={{ fontSize: "12px" }}>{state.em}</em>
             <br />
           </Popup>
