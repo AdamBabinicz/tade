@@ -42,7 +42,7 @@ const Hero = () => {
             <br />
             <img src={state.img} alt="..." /> <br />
             <p style={{ fontSize: "14px" }}>{state.p0}</p>
-            <em style={{ fontSize: "12px" }}>{state.em}</em>
+            <em style={{ fontSize: "11px" }}>{state.em}</em>
             <br />
           </Popup>
         </div>
