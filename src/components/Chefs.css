@@ -1,0 +1,16 @@
+.chefImg {
+  height: 300px;
+  width: 300px;
+  border-bottom: solid 9px #fdc500;
+  border-top: solid 3px #fdc500;
+  object-fit: cover;
+}
+
+.chefContainer {
+  min-height: 100vh;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("../images/16.jpg") center/cover no-repeat fixed;
+  color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
