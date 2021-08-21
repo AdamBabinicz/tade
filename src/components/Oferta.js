@@ -20,7 +20,7 @@ const Oferta = ({ id }) => {
                 <div className="protTitle">{cake.title}</div>
                 <div className="protDesc">{cake.desc}</div>
                 <div className="cakePrice">{cake.price}</div>
-                <button className="cakeBtn">Wybierz</button>
+                {/* <button className="cakeBtn">Wybierz</button> */}
               </div>
             </div>
           </Slide>
