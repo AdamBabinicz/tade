@@ -33,7 +33,7 @@ export const cakes = [
   {
     img: cake4,
     alt: "Cake",
-    title: "Cwiczenia w wodzie",
+    title: "Ćwiczenia w wodzie",
     desc: "Raz w tygodniu przez 45 min. pod okiem instruktorki.",
     price: "🏊‍♂️",
     button: "Select",
