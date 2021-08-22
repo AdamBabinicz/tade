@@ -5,7 +5,7 @@ import Slide from "react-reveal/Reveal";
 import Popup from "./Popup";
 import Img1 from "../images/9.svg";
 
-const Favorite = () => {
+const Favorite = ({ id }) => {
   const [buttonPopup, setButtonPopup] = useState(false);
   // const [buttonPopup1, setButtonPopup1] = useState(false);
   const [state] = useState({
@@ -16,7 +16,7 @@ const Favorite = () => {
   });
 
   return (
-    <div className="favContainer" id="favorite">
+    <div className="favContainer" id={id}>
       <h2>Moje ulubione zajęcie</h2>
       <div className="favContent">
         <Slide left>
