@@ -1,6 +1,6 @@
 import chef1 from "../images/2.png";
 import chef2 from "../images/17.jpg";
-import chef3 from "../images/19.jpg";
+import chef3 from "../images/18.jpg";
 
 export const chefs = [
   {
@@ -16,6 +16,6 @@ export const chefs = [
   {
     img: chef3,
     alt: "Chef",
-    name: "Nie palę papierosów i nie piję alkoholu!",
+    name: "Nie palę papierosów",
   },
 ];
