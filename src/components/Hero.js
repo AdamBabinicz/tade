@@ -4,6 +4,7 @@ import "./Hero.css";
 import Sidebar from "./Sidebar";
 import Popup from "./Popup";
 import Img1 from "../images/1.svg";
+import HealthyImg from "../images/tade.jpg"; // Import nowego zdjęcia
 
 const Hero = () => {
   const [show, setShow] = useState(false);
@@ -13,7 +14,6 @@ const Hero = () => {
   };
 
   const [buttonPopup, setButtonPopup] = useState(false);
-  // const [buttonPopup1, setButtonPopup1] = useState(false);
   const [state] = useState({
     title: "10 zasad zdrowego stylu życia",
     img: Img1,
@@ -25,7 +25,9 @@ const Hero = () => {
     <div className="container">
       <Navbar toggle={toggle}></Navbar>
       <Sidebar show={show} toggle={toggle}></Sidebar>
+      {/* Kontener .content staje się teraz kontenerem flex dla dwóch kolumn */}
       <div className="content">
+        {/* Kolumna 1: Tekst */}
         <div className="contentItems">
           <h1 className="navHead">Mój sposób na zdrowe życie</h1>
           <p>
@@ -45,6 +47,11 @@ const Hero = () => {
             <em style={{ fontSize: "11px" }}>{state.em}</em>
             <br />
           </Popup>
+        </div>
+
+        {/* Kolumna 2: Obrazek */}
+        <div className="heroImageContainer">
+          <img src={HealthyImg} alt="Zdrowy styl życia" className="heroImage" />
         </div>
       </div>
     </div>
